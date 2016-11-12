@@ -14,12 +14,9 @@ RUN apt-get -y install usbutils nano
 WORKDIR /data/
 
 # Install eddystone and beacon
-RUN npm install --silent --save eddystone-beacon bleacon
+RUN npm install --silent
 
 # Clean
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ADD ./init.sh /data/init
-RUN chmod +x /data/init
-
-ENTRYPOINT ["/data/init"]
+CMD [ "npm", "start" ]
