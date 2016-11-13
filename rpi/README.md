@@ -1,9 +1,9 @@
-## Node.js Eddystone and iBeacon Farol beacon implementation
+## Node.js Eddystone and iBeacon Farol beacon implementation for Raspberry Pi
 
 ### Run
 
 ```bash
-docker run --net=host --rm -e BEACON="beacon-spec" menvia/farol-node-beacon
+docker run --net=host --rm -e BEACON="beacon-spec" menvia/rpi-farol-node-beacon
 ```
 
 Where ```beacon-spec``` can be an ```eddystone``` or ```ibeacon```.
