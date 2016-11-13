@@ -1,5 +1,5 @@
 # Parent Dockerfile https://github.com/nodejs/docker-node/blob/master/7.1/Dockerfile
-FROM node:7.1
+FROM node:7.1-onbuild
 MAINTAINER Felipe Plets <felipe.plets@menvia.com>
 
 # Upgrade system
