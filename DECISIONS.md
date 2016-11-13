@@ -1,0 +1,1 @@
+20161112 - Felipe Plets decided to use Mocha and Chai for Unit Tests based on previous experiences

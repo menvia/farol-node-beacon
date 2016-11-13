@@ -1,5 +1,5 @@
-# Parent Dockerfile https://github.com/nodejs/docker-node/blob/master/7.1/Dockerfile
-FROM node:7.1
+# Parent Dockerfile https://github.com/hypriot/rpi-node/blob/master/7.0/Dockerfile
+FROM hypriot/rpi-node:7.0
 MAINTAINER Felipe Plets <felipe.plets@menvia.com>
 
 # Upgrade system
