@@ -1,5 +1,6 @@
-FROM hypriot/rpi-node
-MAINTAINER Matias Schertel <mschertel@gmail.com>
+# Parent Dockerfile https://github.com/nodejs/docker-node/blob/master/7.1/Dockerfile
+FROM node:7.1
+MAINTAINER Felipe Plets <felipe.plets@menvia.com>
 
 # Upgrade system
 RUN apt-get update && apt-get upgrade -y
