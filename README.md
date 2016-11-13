@@ -1,12 +1,12 @@
-## Node.js Eddystone and IBeacon for Raspberry Pi
+## Node.js Eddystone and iBeacon for Raspberry Pi
 
 ### Run
 
 ```bash
-docker run --net=host --rm -e BEACON="$(cat beacon-definition.js)" flatlining/rpi-node-beacon
+docker run --net=host --rm -e BEACON="beacon-spec" flatlining/rpi-node-beacon
 ```
 
-Where ```beacon-definition.js``` can be an Eddystone or IBeacon.
+Where ```beacon-spec``` can be an ```eddystone``` or ```ibeacon```.
 
 #### Eddystone
 
@@ -25,7 +25,7 @@ eddystoneBeacon.advertiseUrl(url, [options]);
 
 ```
 
-#### IBeacon
+#### iBeacon
 
 Based on [node-bleacon](https://github.com/sandeepmistry/node-bleacon), e.g.:
 

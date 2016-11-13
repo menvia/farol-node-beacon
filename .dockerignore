@@ -1,0 +1,12 @@
+.dockerignore
+.gitignore
+Dockerfile
+
+# dependencies
+node_modules/*
+
+# logs
+*.log
+
+# others
+*.DS_Store
