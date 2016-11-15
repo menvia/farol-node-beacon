@@ -1,4 +1,4 @@
-# Parent Dockerfile https://github.com/hypriot/rpi-node/blob/master/7.0/Dockerfile
+# Parent Dockerfile https://github.com/hypriot/rpi-node/tree/master/7.0/onbuild/Dockerfile
 FROM hypriot/rpi-node:7.0-onbuild
 MAINTAINER Felipe Plets <felipe.plets@menvia.com>
 

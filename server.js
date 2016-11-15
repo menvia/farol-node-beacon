@@ -9,5 +9,5 @@ if (beaconSpecification) {
 	}
 } else {
 	console.log('hello Eddystone std!');
-	require('eddystone-beacon').advertiseUrl('https://docker.com');
+	require('./app/eddystone');
 }
